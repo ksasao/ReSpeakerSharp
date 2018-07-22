@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSample", "WinFormsSample\WinFormsSample.csproj", "{CE9D5101-CD75-4B4D-AF39-A669F02A9FFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSample", "Examples\WinFormsSample\WinFormsSample.csproj", "{CE9D5101-CD75-4B4D-AF39-A669F02A9FFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSpeakerSharp", "ReSpeakerSharp\ReSpeakerSharp.csproj", "{C327A0B9-8035-4389-A898-2F4952D1FF30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{94086949-97A9-4E43-94E6-0E0C48CD34F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdSample", "CmdSample\CmdSample.csproj", "{421A76FB-2C99-46FF-9447-E87F0CCBAA83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdSample", "Examples\CmdSample\CmdSample.csproj", "{421A76FB-2C99-46FF-9447-E87F0CCBAA83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -80,7 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReSpeakerSharp\ReSpeakerSharp.csproj">
+    <ProjectReference Include="..\..\ReSpeakerSharp\ReSpeakerSharp.csproj">
       <Project>{c327a0b9-8035-4389-a898-2f4952d1ff30}</Project>
       <Name>ReSpeakerSharp</Name>
     </ProjectReference>
