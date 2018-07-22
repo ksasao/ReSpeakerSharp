@@ -29,6 +29,14 @@ namespace WinFormsSample
         private void Form1_Load(object sender, EventArgs e)
         {
             var devices = respeaker.Find();
+            if(devices.Length == 0)
+            {
+                this.label1.Text = "No ReSpeaker Mic detected.";
+                this.trackBarR.Enabled = false;
+                this.trackBarG.Enabled = false;
+                this.trackBarB.Enabled = false;
+                return;
+            }
             pixelRing = new PixelRing(devices[0]);
             tuning = new Tuning(devices[0]);
             
